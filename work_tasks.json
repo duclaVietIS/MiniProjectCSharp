@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Hoàn thành báo cáo dự án",
+    "deadline": "2025-09-15T17:00:00",
+    "completedAt": null,
+    "priority": "High",
+    "project": "ERP",
+    "assignee": "Nguyen Van A"
+  },
+  {
+    "id": 2,
+    "title": "Kiểm tra hệ thống",
+    "deadline": "2025-09-20T12:00:00",
+    "completedAt": null,
+    "priority": "Low",
+    "project": "Website",
+    "assignee": "Tran Thi B"
+  }
+]

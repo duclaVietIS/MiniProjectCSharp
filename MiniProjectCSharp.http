@@ -1,0 +1,6 @@
+@MiniProjectCSharp_HostAddress = http://localhost:5025
+
+GET {{MiniProjectCSharp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
