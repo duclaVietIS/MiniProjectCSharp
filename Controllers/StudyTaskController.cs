@@ -8,7 +8,7 @@ using System.Linq;
 namespace MiniProjectCSharp.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/study-tasks")]
     public class StudyTaskController : ControllerBase
     {
         private readonly GenericTaskService<StudyTaskItem> _service;

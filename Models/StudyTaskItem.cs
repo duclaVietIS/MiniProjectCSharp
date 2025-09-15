@@ -6,5 +6,6 @@ namespace MiniProjectCSharp.Models
     {
         public string Subject { get; set; } = string.Empty;
         public string Teacher { get; set; } = string.Empty;
+        
     }
 }

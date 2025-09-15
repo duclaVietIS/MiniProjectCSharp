@@ -8,13 +8,13 @@ using System.Linq;
 namespace MiniProjectCSharp.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/work-tasks")]
     public class WorkTaskController : ControllerBase
     {
         private readonly GenericTaskService<WorkTaskItem> _service;
         public WorkTaskController()
         {
-            var jsonPath = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "work_tasks.json");
+            var jsonPath = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "study_tasks.json");
             _service = new GenericTaskService<WorkTaskItem>(jsonPath);
         }
 

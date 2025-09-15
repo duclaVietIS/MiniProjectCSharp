@@ -3,6 +3,9 @@ using MiniProjectCSharp.Enums;
 
 namespace MiniProjectCSharp.Models
 {
+    /// <summary>
+    /// Giao diện cho các loại công việc
+    /// </summary>
     public interface ITaskItem
     {
         int Id { get; }
@@ -12,6 +15,9 @@ namespace MiniProjectCSharp.Models
         PriorityLevel Priority { get; }
     }
 
+    /// <summary>
+    /// Lớp cơ sở cho các loại công việc khác nhau
+    /// </summary>
     public abstract class BaseTaskItem : ITaskItem
     {
         public int Id { get; set; }
